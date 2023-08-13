@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { Button } from "flowbite-react";
-import { ServerInterface } from "../JS/ServerInterface";
 
 function App() {
   const [count, setCount] = useState(0);
-
-  console.log(new ServerInterface().getTest());
 
   return (
     <div className="main">
